@@ -1,0 +1,74 @@
+/* Adicionando fontes personalizadas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Aplicando a fonte global */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Personalizando o fundo do hero */
+.hero-background {
+    background: linear-gradient(135deg, #4e73df, #1e3a8a);
+}
+
+/* Customizando o botão da hero section */
+.hero-btn {
+    background-color: #ffffff;
+    color: #4e73df;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #f1f5f9;
+    color: #1e3a8a;
+}
+
+/* Customizando os títulos */
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+/* Estilo para os cards de recursos */
+.feature-card {
+    background-color: #f9fafb;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Customizando o footer */
+footer {
+    background-color: #1f2937;
+    color: #d1d5db;
+}
+
+footer a {
+    color: #d1d5db;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Estilo para os ícones de redes sociais */
+footer .social-icon {
+    width: 30px;
+    height: 30px;
+    color: #d1d5db;
+    transition: color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    color: #ffffff;
+}
